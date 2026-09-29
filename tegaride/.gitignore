@@ -1,0 +1,14 @@
+node_modules
+dist
+coverage
+*.tsbuildinfo
+*.log
+.DS_Store
+
+# Secrets: never commit these
+.env
+.env.*
+!.env.example
+
+# Private uploads (driver documents), added in Step 6
+uploads/

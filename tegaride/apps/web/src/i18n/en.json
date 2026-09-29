@@ -1,0 +1,24 @@
+{
+  "brand": {
+    "name": "TegaRide",
+    "tagline": "Move Rwanda. Move Easy."
+  },
+  "nav": {
+    "bookRide": "Book a Ride",
+    "becomeDriver": "Become a Driver",
+    "business": "Business"
+  },
+  "home": {
+    "subtitle": "Safe, simple rides by moto or car, starting in Kigali."
+  },
+  "status": {
+    "checking": "Checking connection…",
+    "online": "Service connected",
+    "offline": "Cannot reach the service"
+  },
+  "common": {
+    "language": "Language",
+    "comingSoon": "This page is coming soon.",
+    "backHome": "Back to home"
+  }
+}

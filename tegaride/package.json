@@ -1,0 +1,27 @@
+{
+  "name": "tegaride",
+  "version": "0.1.0",
+  "private": true,
+  "description": "TegaRide - Move Rwanda. Move Easy.",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "engines": {
+    "node": ">=20.11"
+  },
+  "scripts": {
+    "dev": "concurrently -k -n api,web -c blue,green \"npm run dev -w @tegaride/api\" \"npm run dev -w @tegaride/web\"",
+    "dev:api": "npm run dev -w @tegaride/api",
+    "dev:web": "npm run dev -w @tegaride/web",
+    "build": "npm run build --workspaces --if-present",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present",
+    "db:up": "docker compose up -d db",
+    "db:down": "docker compose down"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0",
+    "typescript": "^5.7.0"
+  }
+}

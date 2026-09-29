@@ -1,0 +1,24 @@
+{
+  "brand": {
+    "name": "TegaRide",
+    "tagline": "Move Rwanda. Move Easy."
+  },
+  "nav": {
+    "bookRide": "Saba urugendo",
+    "becomeDriver": "Aba umushoferi",
+    "business": "Ubucuruzi"
+  },
+  "home": {
+    "subtitle": "Ingendo zoroshye kandi zizewe kuri moto cyangwa imodoka, guhera i Kigali."
+  },
+  "status": {
+    "checking": "Turimo kureba ihuzwa…",
+    "online": "Serivisi irahari",
+    "offline": "Ntidushobora kugera kuri serivisi"
+  },
+  "common": {
+    "language": "Ururimi",
+    "comingSoon": "Iyi paji iraza vuba.",
+    "backHome": "Subira ahabanza"
+  }
+}

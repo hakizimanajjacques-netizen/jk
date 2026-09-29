@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+/* TegaRide design tokens. Colours are inspired by Rwanda's landscape and flag
+   (green hills, sunlight) but used with restraint. System fonts keep the app
+   fast and cheap on mobile data (no font downloads). */
+@theme {
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+    Arial, sans-serif;
+
+  --color-brand-50: #ecf8f1;
+  --color-brand-100: #d0eedd;
+  --color-brand-500: #16a06a;
+  --color-brand-600: #0f8a5a;
+  --color-brand-700: #0b6f49;
+  --color-brand-900: #06402a;
+
+  --color-sun-400: #f7c531;
+  --color-sun-500: #e6b012;
+
+  --color-ink-900: #0c1a24;
+  --color-ink-600: #46596a;
+  --color-ink-200: #d5dde3;
+  --color-ink-100: #e6ebef;
+  --color-ink-50: #f5f7f9;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  @apply bg-ink-50 text-ink-900 font-sans antialiased;
+}

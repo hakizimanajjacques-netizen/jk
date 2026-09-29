@@ -1,0 +1,9 @@
+{
+  "name": "@tegaride/database",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "description": "Prisma schema, migrations, seed and client (added in Step 3)"
+}
